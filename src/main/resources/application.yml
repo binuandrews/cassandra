@@ -1,0 +1,7 @@
+spring:
+  cassandra:
+    port: 9042
+    contact-points: cassandra
+    keyspace-name: techframer
+    schema-action: create_if_not_exists
+    entity-base-package: com.nosql.demo.cassandra.model

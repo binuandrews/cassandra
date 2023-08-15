@@ -14,10 +14,8 @@ import java.util.Optional;
 @RequestMapping("/api")
 public class StudentController {
 
-
     @Autowired
     StudentRepository studentRepository;
-
 
     @RequestMapping("/students")
     public List<Student> getStudents(){
